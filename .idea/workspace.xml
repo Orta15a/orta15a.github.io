@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="793">
@@ -131,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AJAXTable.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AJAXTable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AJAXTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="679">
+              <caret line="75" column="2" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -202,9 +202,9 @@
         <option value="$PROJECT_DIR$/cube-ilum.html" />
         <option value="$PROJECT_DIR$/epilog-yaga.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/AJAXTable.js" />
         <option value="$PROJECT_DIR$/stock.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/AJAXTable.js" />
       </list>
     </option>
   </component>
@@ -293,7 +293,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23051000" />
+    <option name="totallyTimeSpent" value="23079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-487" width="1936" height="1056" extended-state="6" />
@@ -4808,14 +4808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AJAXTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -4936,6 +4928,14 @@
             <element signature="n#style#0;n#td#1;n#tr#5;n#tbody#0;n#table#5;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#2;n#tr#5;n#tbody#0;n#table#5;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAXTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="75" column="2" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

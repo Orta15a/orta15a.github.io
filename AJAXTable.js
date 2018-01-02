@@ -71,7 +71,7 @@ var getTableDataAJAX = function() {
             }();
         };
     };
-    getTableData.open("GET", "petsandpeople.json", true);
+    getTableData.open("GET", "stock.json", true);
     getTableData.send();
 };
 
