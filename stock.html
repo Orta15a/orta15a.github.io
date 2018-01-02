@@ -1,4 +1,21 @@
 ---
 layout : default
 ---
-<p id="stock"></p>
+<script>
+    var $records = $('stock.json'),
+        myRecords = JSON.parse($records.text());
+    $('#my-final-table').dynatable({
+        dataset: {
+            records: myRecords
+        }
+    });
+</script>
+
+<table id="my-final-table">
+    <thead>
+    <th>Band</th>
+    <th>Song</th>
+    </thead>
+    <tbody>
+    </tbody>
+</table>

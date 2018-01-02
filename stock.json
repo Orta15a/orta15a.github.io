@@ -1,4 +1,10 @@
-{
-  "items"   : ["Pistolet", "Carabine", "Fusil", "Super truc"],
-  "prices" : ["200", "500", "800", "1000000"]
-}
+[
+  {
+    "item": "CDEF5",
+    "prix": "500"
+  },
+  {
+    "item": "fusil",
+    "prix": "800"
+  }
+]
