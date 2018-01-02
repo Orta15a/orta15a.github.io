@@ -1,20 +1,30 @@
 ---
 layout : default
 ---
+<stock.json>[
+    {
+    "band": "Weezer",
+    "song": "El Scorcho"
+    },
+    {
+    "band": "Chevelle",
+    "song": "Family System"
+    }
+    ]</stock.json>
 <script>
     var $records = $('stock.json'),
-        myRecords = JSON.parse($records.text());
+        myItems = JSON.parse($records.text());
     $('#my-final-table').dynatable({
         dataset: {
-            records: myRecords
+            records: myItems
         }
     });
 </script>
 
 <table id="my-final-table">
     <thead>
-    <th>Band</th>
-    <th>Song</th>
+    <th>Item</th>
+    <th>Prix</th>
     </thead>
     <tbody>
     </tbody>
