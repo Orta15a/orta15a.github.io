@@ -1,5 +1,4 @@
 {
-  "tableHeading"     : "Stock de l'intendant",
-  "tableCellsPets"   : ["Pistolet", "Carabine", "Fusil", "Super truc"],
-  "tableCellsPeople" : ["200", "500", "800", "1000000"]
+  "items"   : ["Pistolet", "Carabine", "Fusil", "Super truc"],
+  "prices" : ["200", "500", "800", "1000000"]
 }
