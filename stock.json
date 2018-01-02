@@ -1,0 +1,5 @@
+{
+  "tableHeading"     : "Stock de l'intendant",
+  "tableCellsPets"   : ["Pistolet", "Carabine", "Fusil", "Super truc"],
+  "tableCellsPeople" : ["200", "500", "800", "1000000"]
+}
