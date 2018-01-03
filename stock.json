@@ -1,14 +1,114 @@
 {
-  "items": [
+  "weapons": [
     {
-      "name": "CDEF5",
-      "description": "pistolet merdique",
-      "prix": "500"
+      "Name": "A280 Blaster Rifle",
+      "Skill": "Ranged (Heavy)",
+      "Dam": 9,
+      "Crit": 3,
+      "Range": "Long",
+      "Price": 900,
+      "Special": "Stun Setting",
+      "Ability": "N/A"
     },
     {
-      "name": "fusil",
-      "description": "fusil pourri",
-      "prix": "800"
+      "Name": "DLT-19",
+      "Skill": "Ranged (Heavy)",
+      "Dam": 10,
+      "Crit": 3,
+      "Range": "Long",
+      "Price": 1500,
+      "Special": "Auto-Fire, Cumbersome 3",
+      "Ability": "N/A"
+    },
+    {
+      "Name": "E-11 Blaster Rifle",
+      "Skill": "Ranged (Heavy)",
+      "Dam": 9,
+      "Crit": 3,
+      "Range": "Long",
+      "Price": 900,
+      "Special": "Stun Setting",
+      "Ability": "N/A"
+    },
+    {
+      "Name": "Slugthrower Rifle",
+      "Skill": "Ranged (Heavy)",
+      "Dam": 7,
+      "Crit": 5,
+      "Range": "Medium",
+      "Price": 250,
+      "Special": "Cumbersome 2",
+      "Ability": "N/A"
+    },
+    {
+      "Name": "EE-3 Carbine Rifle",
+      "Skill": "Ranged (Heavy)",
+      "Dam": 9,
+      "Crit": 3,
+      "Range": "Medium",
+      "Price": 850,
+      "Special": "Stun Setting",
+      "Ability": "N/A"
+    },
+    {
+      "Name": "DL-44 Blaster Pistol",
+      "Skill": "Ranged (Light)",
+      "Dam": 6,
+      "Crit": 3,
+      "Range": "Medium",
+      "Price": 400,
+      "Special": "Stun Setting",
+      "Ability": "N/A"
+    },
+    {
+      "Name": "BlasTech DL-19C Blaster Pistol",
+      "Skill": "Ranged (Light)",
+      "Dam": 5,
+      "Crit": 4,
+      "Range": "Medium",
+      "Price": 450,
+      "Special": "Stun Setting",
+      "Ability": "When a character applies the Jury Rigged talent to this weapon he may select one additional option from the talent's list and apply it to the weapon (cannot select the same option twice)"
+    },
+    {
+      "Name": "CR-2 Heavy Blaster Pistol",
+      "Skill": "Ranged (Light)",
+      "Dam": 7,
+      "Crit": 4,
+      "Range": "Medium",
+      "Price": 600,
+      "Special": "Stun Setting",
+      "Ability": "N/A"
+    },
+    {
+      "Name": "HL-27 Light Blaster Pistol",
+      "Skill": "Ranged (Light)",
+      "Dam": 5,
+      "Crit": 3,
+      "Range": "Medium",
+      "Price": 450,
+      "Special": "Accurate 1, Stun Setting",
+      "Ability": "N/A"
+    },
+    {
+      "Name": "Frag Grenade",
+      "Skill": "Ranged (Light)",
+      "Dam": 8,
+      "Crit": 4,
+      "Range": "Short",
+      "Price": 50,
+      "Special": "Blast 6, Limited Ammo 1",
+      "Ability": "Can be set to explode on impact, detonate up to 3 rounds after being activated or make use of a "
+    },
+    {
+      "Name": "Stun Grenade",
+      "Skill": "Ranged (Light)",
+      "Dam": 8,
+      "Crit": "N/A",
+      "Range": "Short",
+      "Price": 75,
+      "Special": "Disorient 3, Stun Damage, Blast 8, Limited Ammo 1",
+      "Ability": "Same fire modes as a Frag Grenade"
     }
   ]
 }
