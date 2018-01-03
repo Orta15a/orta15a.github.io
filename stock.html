@@ -94,9 +94,9 @@ layout : default
     }
 </script>
 <script>
-    function sortTable(n) {
+    function sortTable(n,tablename) {
         var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-        table = document.getElementById("armor-table");
+        table = document.getElementById(tablename);
         switching = true;
         //Set the sorting direction to ascending:
         dir = "asc";
@@ -169,11 +169,11 @@ layout : default
 <h2>Armures</h2>
 <table id="armor-table">
     <thead>
-    <th onclick="sortTable(0)">Nom</th>
-    <th onclick="sortTable(1)">Encaissement</th>
-    <th onclick="sortTable(2)">Défense</th>
-    <th onclick="sortTable(3)">Spécial</th>
-    <th onclick="sortTable(4)">Prix</th>
+    <th onclick="sortTable(0,armor-table)">Nom</th>
+    <th onclick="sortTable(1,armor-table)">Encaissement</th>
+    <th onclick="sortTable(2,armor-table)">Défense</th>
+    <th onclick="sortTable(3,armor-table)">Spécial</th>
+    <th onclick="sortTable(4,armor-table)">Prix</th>
     </thead>
     <tbody>
     </tbody>
