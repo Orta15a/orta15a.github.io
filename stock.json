@@ -129,7 +129,28 @@
       "Price": 75,
       "Special": "Désorientation 3, Dégâts étourdissant, Souffle 8, Munition limitées 1",
       "Ability": "Explo. peut être retardée"
+    },
+    {
+      "Name": "Matraque étourdissante",
+      "Skill": "CaC",
+      "Dam": "+3",
+      "Crit": "2",
+      "Range": "Engagé",
+      "Price": 75,
+      "Special": "Désorientation 2",
+      "Ability": ""
+    },
+    {
+      "Name": "Coup-de-poing",
+      "Skill": "Pugilat",
+      "Dam": "+1",
+      "Crit": "4",
+      "Range": "Engagé",
+      "Price": 75,
+      "Special": "Désorientation 3",
+      "Ability": ""
     }
+
   ],
   "armors": [
     {
@@ -145,6 +166,13 @@
       "Enc": 2,
       "Special": "N/A",
       "Price": 500
+    },
+    {
+      "Name": "Vêtement Renforcés",
+      "Def": 1,
+      "Enc": 1,
+      "Special": "N/A",
+      "Price": 1000
     },
     {
       "Name": "Equipement environnement hostile",
@@ -256,6 +284,12 @@
       "Type": "Stockage",
       "Description": "+1 seuil encomb.",
       "Price": 25
+    }
+  ,{
+      "Name": "Sac à dos",
+      "Type": "Stockage",
+      "Description": "+4 seuil encomb.",
+      "Price": 50
     }
 
   ],
