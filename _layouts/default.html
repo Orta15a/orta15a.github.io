@@ -2,9 +2,9 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
       <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" href="/styles/swrpgaor.min.css">
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
-  <body>
+  <body ng-app="myApp" ng-cloak>
       <!--<div id="header">
         <nav>
           <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
@@ -30,7 +30,12 @@
           {% endif %}
         </nav>
       </div><!-- end header -->
-
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+      <script src="/scripts/swrpgaor.min.js"></script>
+      <script>
+          var app = angular.module("myApp", ['swaor']);
+      </script>
+      <h1>A long time ago in a galaxy far far away...</h1>
     <div class="wrapper">
 
       <section>
