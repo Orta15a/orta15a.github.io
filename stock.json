@@ -202,7 +202,7 @@
       "Name": "Equipement environnement hostiles renforcé",
       "Def": 0,
       "Enc": 1,
-      "Special": "-<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"> conditions clima., +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\"> à Resistance",
+      "Special": "-<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/> conditions clima., +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\"/> à Resistance",
       "Price": 850
     },{
       "Name": "Combinaison de mécanicien",
@@ -252,7 +252,7 @@
     },{
       "Name": "Médipac",
       "Type": "Médical",
-      "Description": "Permet de soigner +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\">",
+      "Description": "Permet de soigner +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\"/>",
       "Price": 400
     },{
       "Name": "Outils de mécanicien",
@@ -297,7 +297,7 @@
     {
       "Name": "Camouflage naturel",
       "Type": "Kit Armure",
-      "Description": "+<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"> Perception, Vigilance",
+      "Description": "+<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/> Perception, Vigilance",
       "Price": 75
     },{
       "Name": "Indicateur de menace",
@@ -307,12 +307,12 @@
     },{
       "Name": "Scanner intégré",
       "Type": "Kit Armure",
-      "Description": "Casque. +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\"></i> Perception pour detect. ennemis",
+      "Description": "Casque. +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\"/></i> Perception pour detect. ennemis",
       "Price": 1000
     },{
       "Name": "Suite optique améliorée",
       "Type": "Kit Armure",
-      "Description": "Casque. -<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"><i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"> pour fumée, obscurité, etc.",
+      "Description": "Casque. -<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/><i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/> pour fumée, obscurité, etc.",
       "Price": 1750
     },{
       "Name": "Pointeur laser",
