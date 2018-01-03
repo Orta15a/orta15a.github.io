@@ -182,39 +182,39 @@
       "Description": "",
       "Price": 200
     },{
-      "Name": "Macro jumelles",
-      "Type": "",
-      "Description": "",
+      "Name": "Macrojumelles",
+      "Type": "Detection",
+      "Description": "Voir sur de longues distances",
       "Price": 75
     },{
       "Name": "Jumelles scanner",
-      "Type": "Communication",
-      "Description": "",
+      "Type": "Detection",
+      "Description": "Voir normalement dans l'obscurité",
       "Price": 150
     },{
       "Name": "Stimpack",
       "Type": "Médical",
-      "Description": "",
+      "Description": "Seringue auto-injectable",
       "Price": 25
     },{
       "Name": "Médipac de secours",
       "Type": "Médical",
-      "Description": "",
+      "Description": "Permet de soigner sans malus",
       "Price": 100
     },{
       "Name": "Médipac",
       "Type": "Médical",
-      "Description": "",
+      "Description": "Permet de soigner +1 dés bleu",
       "Price": 400
     },{
       "Name": "Outils de mécanicien",
       "Type": "Outils",
-      "Description": "",
+      "Description": "Permet de réparer sans malus",
       "Price": 350
     },{
       "Name": "Outils de slicer",
       "Type": "Outils",
-      "Description": "",
+      "Description": "Permet de slicer sans malus",
       "Price": 500
     },{
       "Name": "Datapad",
@@ -223,18 +223,18 @@
       "Price": 75
     },{
       "Name": "Lanterne électrique",
-      "Type": "",
-      "Description": "",
+      "Type": "Outils",
+      "Description": "Eclairage",
       "Price": 150
     },{
       "Name": "Matériel d'escalade",
-      "Type": "",
-      "Description": "",
+      "Type": "Outils",
+      "Description": "Corde et pitons",
       "Price": 400
     },{
-      "Name": "Ceinture utilitaire",
-      "Type": "",
-      "Description": "",
+      "Name": "Ceinture multi-usage",
+      "Type": "Stockage",
+      "Description": "+1 seuil encomb.",
       "Price": 25
     }
 
