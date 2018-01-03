@@ -1,29 +1,28 @@
 ---
 layout : default
 ---
-<stock.json>[
-    {
-    "band": "Weezer",
-    "song": "El Scorcho"
-    },
-    {
-    "band": "Chevelle",
-    "song": "Family System"
-    }
-    ]</stock.json>
 <script>
-    var $records = $('stock.json'),
-        myItems = JSON.parse($records.text());
-    $('#my-final-table').dynatable({
-        dataset: {
-            records: myItems
-        }
+    $(function() {
+
+
+        var items = [];
+
+        $.getJSON('stock.json', function(data) {
+            $.each(data.items, function(i, f) {
+                var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
+                    "<td>" + f.description + "</td>" + "<td>" + f.prix + "</td>" + "</tr>"
+                $(tblRow).appendTo("#my-stock-table tbody");
+            });
+
+        });
+
     });
 </script>
 
-<table id="my-final-table">
+<table id="my-stock-table">
     <thead>
     <th>Item</th>
+    <th>Description</th>
     <th>Prix</th>
     </thead>
     <tbody>

@@ -1,10 +1,14 @@
-[
-  {
-    "item": "CDEF5",
-    "prix": "500"
-  },
-  {
-    "item": "fusil",
-    "prix": "800"
-  }
-]
+{
+  "items": [
+    {
+      "name": "CDEF5",
+      "description": "pistolet merdique",
+      "prix": "500"
+    },
+    {
+      "name": "fusil",
+      "description": "fusil pourri",
+      "prix": "800"
+    }
+  ]
+}
