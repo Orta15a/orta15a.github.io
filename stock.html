@@ -60,7 +60,7 @@ layout : default
         $.getJSON('stock.json', function(data) {
             $.each(data.kits, function(i, f) {
                 var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
-                    "<td>" + f.Type + "</td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>";
+                    "<td>" + f.Type + "<boost></boost></td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>";
                 $(tblRow).appendTo("#kit-table tbody");
             });
 
