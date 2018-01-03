@@ -125,6 +125,49 @@
       "Enc": 2,
       "Special": "N/A",
       "Price": 500
+    },
+    {
+      "Name": "Equipement environnement hostile",
+      "Def": 0,
+      "Enc": 1,
+      "Special": "-1 dés noir condition clima.",
+      "Price": 500
+    },{
+      "Name": "Armure plaque laminée",
+      "Def": 0,
+      "Enc": 2,
+      "Special": "Armure complète, avec casque",
+      "Price": 2500
+    },{
+      "Name": "Veste flak",
+      "Def": 0,
+      "Enc": 1,
+      "Special": "Donne +1 Enc. contre Souffle",
+      "Price": 300
+    },{
+      "Name": "Veste anti-blast",
+      "Def": 0,
+      "Enc": 1,
+      "Special": "Donne +1 Enc. contre projectiles",
+      "Price": 200
+    },{
+      "Name": "Equipement environnement hostiles renforcé",
+      "Def": 0,
+      "Enc": 1,
+      "Special": "-1 dés noir conditions clima., +1 dés bleu à Resistance",
+      "Price": 850
+    },{
+      "Name": "Combinaison de mécanicien",
+      "Def": 0,
+      "Enc": 2,
+      "Special": "Trousse à outil intégrée",
+      "Price": 1175
+    },{
+      "Name": "Armure de combat lourde",
+      "Def": 1,
+      "Enc": 2,
+      "Special": "Scellée, Rare",
+      "Price": 5000
     }
   ]
 }
