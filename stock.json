@@ -178,7 +178,7 @@
       "Name": "Equipement environnement hostile",
       "Def": 0,
       "Enc": 1,
-      "Special": "-1 dés noir condition clima.",
+      "Special": "-<setback></setback> condition clima.",
       "Price": 500
     },{
       "Name": "Armure plaque laminée",
@@ -202,7 +202,7 @@
       "Name": "Equipement environnement hostiles renforcé",
       "Def": 0,
       "Enc": 1,
-      "Special": "-1 dés noir conditions clima., +1 dés bleu à Resistance",
+      "Special": "-<setback></setback> conditions clima., +<boost></boost> à Resistance",
       "Price": 850
     },{
       "Name": "Combinaison de mécanicien",
@@ -252,7 +252,7 @@
     },{
       "Name": "Médipac",
       "Type": "Médical",
-      "Description": "Permet de soigner +1 dés bleu",
+      "Description": "Permet de soigner +<boost></boost>",
       "Price": 400
     },{
       "Name": "Outils de mécanicien",
@@ -297,7 +297,7 @@
     {
       "Name": "Camouflage naturel",
       "Type": "Kit Armure",
-      "Description": "+1 dés noir Perception, Vigilance",
+      "Description": "+<setback></setback> Perception, Vigilance",
       "Price": 75
     },{
       "Name": "Indicateur de menace",
@@ -307,12 +307,12 @@
     },{
       "Name": "Scanner intégré",
       "Type": "Kit Armure",
-      "Description": "Casque. +1 dés bleu Perception pour detect. ennemis",
+      "Description": "Casque. +<boost></boost> Perception pour detect. ennemis",
       "Price": 1000
     },{
       "Name": "Suite optique améliorée",
       "Type": "Kit Armure",
-      "Description": "Casque. -2 dés noir pour fumée, obscurité, etc.",
+      "Description": "Casque. -<setback></setback><setback></setback> pour fumée, obscurité, etc.",
       "Price": 1750
     },{
       "Name": "Pointeur laser",
