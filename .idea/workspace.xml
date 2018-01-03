@@ -134,9 +134,11 @@
       <file leaf-file-name="stock.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="114" column="24" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="691">
+              <caret line="164" column="11" lean-forward="true" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+              <folding>
+                <element signature="n#script#2;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -288,12 +290,12 @@
       <updated>1514857289200</updated>
       <workItem from="1514857291100" duration="5193000" />
       <workItem from="1514900150831" duration="3097000" />
-      <workItem from="1514949078963" duration="8156000" />
+      <workItem from="1514949078963" duration="8280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34562000" />
+    <option name="totallyTimeSpent" value="34686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1101,9 +1103,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="114" column="24" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="691">
+          <caret line="164" column="11" lean-forward="true" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+          <folding>
+            <element signature="n#script#2;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
