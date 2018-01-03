@@ -2,7 +2,7 @@
   "weapons": [
     {
       "Name": "A280 Blaster Rifle",
-      "Skill": "Distance (lourde)",
+      "Skill": "Dist. (lou)",
       "Dam": 9,
       "Crit": 3,
       "Range": "Longue",
@@ -12,7 +12,7 @@
     },
     {
       "Name": "DLT-19",
-      "Skill": "Distance (lourde)",
+      "Skill": "Dist. (lou)",
       "Dam": 10,
       "Crit": 3,
       "Range": "Longue",
@@ -22,7 +22,7 @@
     },
     {
       "Name": "E-11 Blaster Rifle",
-      "Skill": "Distance (lourde)",
+      "Skill": "Dist. (lou)",
       "Dam": 9,
       "Crit": 3,
       "Range": "Longue",
@@ -32,7 +32,7 @@
     },
     {
       "Name": "Slugthrower Rifle",
-      "Skill": "Distance (lourde)",
+      "Skill": "Dist. (lou)",
       "Dam": 7,
       "Crit": 5,
       "Range": "Moyen",
@@ -42,7 +42,7 @@
     },
     {
       "Name": "EE-3 Carbine Rifle",
-      "Skill": "Distance (lourde)",
+      "Skill": "Dist. (lou)",
       "Dam": 9,
       "Crit": 3,
       "Range": "Moyen",
@@ -52,7 +52,7 @@
     },
     {
       "Name": "DL-44 Blaster Pistol",
-      "Skill": "Distance (légère)",
+      "Skill": "Dist. (lég)",
       "Dam": 6,
       "Crit": 3,
       "Range": "Moyen",
@@ -62,17 +62,17 @@
     },
     {
       "Name": "BlasTech DL-19C Blaster Pistol",
-      "Skill": "Distance (légère)",
+      "Skill": "Dist. (lég)",
       "Dam": 5,
       "Crit": 4,
       "Range": "Moyen",
       "Price": 450,
       "Special": "Réglage étourdissant",
-      "Ability": "Talent Customisation peut être appliqué 2 fois"
+      "Ability": "Talent Customisation peut * 2"
     },
     {
       "Name": "CR-2 Heavy Blaster Pistol",
-      "Skill": "Distance (légère)",
+      "Skill": "Dist. (lég)",
       "Dam": 7,
       "Crit": 4,
       "Range": "Moyen",
@@ -82,7 +82,7 @@
     },
     {
       "Name": "HL-27 Light Blaster Pistol",
-      "Skill": "Distance (légère)",
+      "Skill": "Dist. (lég)",
       "Dam": 5,
       "Crit": 3,
       "Range": "Moyen",
@@ -92,23 +92,23 @@
     },
     {
       "Name": "Frag Grenade",
-      "Skill": "Distance (légère)",
+      "Skill": "Dist. (lég)",
       "Dam": 8,
       "Crit": 4,
       "Range": "Courte",
       "Price": 50,
       "Special": "Souffle 6, Munition limitées 1",
-      "Ability": "Exploser à l'impact ou jusqu'à 3 round après activation"
+      "Ability": "Explo. peut être retardée"
     },
     {
       "Name": "Stun Grenade",
-      "Skill": "Distance (légère)",
+      "Skill": "Dist. (lég)",
       "Dam": 8,
       "Crit": "N/A",
       "Range": "Courte",
       "Price": 75,
       "Special": "Désorientation 3, Dégâts étourdissant, Souffle 8, Munition limitées 1",
-      "Ability": "Exploser à l'impact ou jusqu'à 3 round après activation"
+      "Ability": "Explo. peut être retardée"
     }
   ],
   "armors": [
@@ -169,5 +169,74 @@
       "Special": "Scellée, Rare",
       "Price": 5000
     }
+  ],
+  "gears": [
+    {
+      "Name": "Comlink",
+      "Type": "Communication",
+      "Description": "",
+      "Price": 25
+    },{
+      "Name": "Comlink longue portée",
+      "Type": "Communication",
+      "Description": "",
+      "Price": 200
+    },{
+      "Name": "Macro jumelles",
+      "Type": "",
+      "Description": "",
+      "Price": 75
+    },{
+      "Name": "Jumelles scanner",
+      "Type": "Communication",
+      "Description": "",
+      "Price": 150
+    },{
+      "Name": "Stimpack",
+      "Type": "Médical",
+      "Description": "",
+      "Price": 25
+    },{
+      "Name": "Médipac de secours",
+      "Type": "Médical",
+      "Description": "",
+      "Price": 100
+    },{
+      "Name": "Médipac",
+      "Type": "Médical",
+      "Description": "",
+      "Price": 400
+    },{
+      "Name": "Outils de mécanicien",
+      "Type": "Outils",
+      "Description": "",
+      "Price": 350
+    },{
+      "Name": "Outils de slicer",
+      "Type": "Outils",
+      "Description": "",
+      "Price": 500
+    },{
+      "Name": "Datapad",
+      "Type": "Communication",
+      "Description": "",
+      "Price": 75
+    },{
+      "Name": "Lanterne électrique",
+      "Type": "",
+      "Description": "",
+      "Price": 150
+    },{
+      "Name": "Matériel d'escalade",
+      "Type": "",
+      "Description": "",
+      "Price": 400
+    },{
+      "Name": "Ceinture utilitaire",
+      "Type": "",
+      "Description": "",
+      "Price": 25
+    }
+
   ]
 }

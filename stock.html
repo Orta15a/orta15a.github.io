@@ -1,6 +1,7 @@
 ---
 layout : default
 ---
+<!--Creation weapon table-->
 <script>
     $(function() {
 
@@ -19,6 +20,7 @@ layout : default
     });
 </script>
 
+<!--Creation armor table-->
 <script>
     $(function() {
 
@@ -37,6 +39,26 @@ layout : default
     });
 </script>
 
+<!--Creation gear table-->
+<script>
+    $(function() {
+
+
+        var gears = [];
+
+        $.getJSON('stock.json', function(data) {
+            $.each(data.gears, function(i, f) {
+                var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
+                    "<td>" + f.Type + "</td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>"
+                $(tblRow).appendTo("#gear-table tbody");
+            });
+
+        });
+
+    });
+</script>
+
+<!--Sorting script-->
 <script>
     function sortTable(n,tablename) {
         var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
@@ -127,9 +149,10 @@ layout : default
 <h2>Equipements</h2>
 <table id="gear-table">
     <thead>
-    <th>Nom</th>
-    <th>Description</th>
-    <th>Prix (crédit)</th>
+    <th onclick="sortTable(0,'gear-table')">Nom</th>
+    <th onclick="sortTable(1,'gear-table')">Type</th>
+    <th onclick="sortTable(2,'gear-table')">Description</th>
+    <th onclick="sortTable(3,'gear-table')">Prix (crédit)</th>
     </thead>
     <tbody>
     </tbody>
