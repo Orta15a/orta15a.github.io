@@ -21,9 +21,10 @@ layout : default
 
 <script>
 
-    var $records = $.getJSON('stock.json', function(data){},
-    myRecords = JSON.parse($records.text());
-$('#armor-table').dynatable({
+    $.getJSON('stock.json', function(data) {
+    var $records = $(data),
+    myRecords = JSON.parse($records.text());}
+    $('#armor-table').dynatable({
     dataset: {
         records: myRecords
     }
