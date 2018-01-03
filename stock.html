@@ -28,7 +28,7 @@ layout : default
         $.getJSON('stock.json', function(data) {
             $.each(data.armors, function(i, f) {
                 var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
-                    "<td>" + f.Def + "</td>" + "<td>" + f.Enc + "</td>" + "<td>" + f.Special + "</td>"+ "<td>" + f.Price +"</tr>"
+                    "<td>" + f.Enc + "</td>" + "<td>" + f.Def + "</td>" + "<td>" + f.Special + "</td>"+ "<td>" + f.Price +"</tr>"
                 $(tblRow).appendTo("#armorTable tbody");
             });
 
