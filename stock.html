@@ -94,7 +94,7 @@ layout : default
     }
 </script>
 <script>
-    function sortTable(n,tablename) {
+    function sortTableNew(n,tablename) {
         var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
         table = document.getElementById(tablename);
         switching = true;
@@ -167,13 +167,13 @@ layout : default
 </table>
 
 <h2>Armures</h2>
-<table id="armor-table">
+<table id="armorTable">
     <thead>
-    <th onclick="sortTable(0,armor-table)">Nom</th>
-    <th onclick="sortTable(1,armor-table)">Encaissement</th>
-    <th onclick="sortTable(2,armor-table)">Défense</th>
-    <th onclick="sortTable(3,armor-table)">Spécial</th>
-    <th onclick="sortTable(4,armor-table)">Prix</th>
+    <th onclick="sortTableNew(0,armorTable)">Nom</th>
+    <th onclick="sortTableNew(1,armorTable)">Encaissement</th>
+    <th onclick="sortTableNew(2,armorTable)">Défense</th>
+    <th onclick="sortTableNew(3,armorTable)">Spécial</th>
+    <th onclick="sortTableNew(4,armorTable)">Prix</th>
     </thead>
     <tbody>
     </tbody>
