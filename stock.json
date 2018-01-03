@@ -35,7 +35,7 @@
       "Skill": "Dist. (lou)",
       "Dam": 7,
       "Crit": 5,
-      "Range": "Moyen",
+      "Range": "Moyenne",
       "Price": 250,
       "Special": "Encombrant 2",
       "Ability": "N/A"
@@ -45,7 +45,7 @@
       "Skill": "Dist. (lou)",
       "Dam": 9,
       "Crit": 3,
-      "Range": "Moyen",
+      "Range": "Moyenne",
       "Price": 850,
       "Special": "Réglage étourdissant",
       "Ability": "N/A"
@@ -55,7 +55,7 @@
       "Skill": "Dist. (lég)",
       "Dam": 6,
       "Crit": 3,
-      "Range": "Moyen",
+      "Range": "Moyenne",
       "Price": 400,
       "Special": "Réglage étourdissant",
       "Ability": "N/A"
@@ -65,7 +65,7 @@
       "Skill": "Dist. (lég)",
       "Dam": 5,
       "Crit": 4,
-      "Range": "Moyen",
+      "Range": "Moyenne",
       "Price": 450,
       "Special": "Réglage étourdissant",
       "Ability": "Talent Customisation peut * 2"
@@ -75,7 +75,7 @@
       "Skill": "Dist. (lég)",
       "Dam": 7,
       "Crit": 4,
-      "Range": "Moyen",
+      "Range": "Moyenne",
       "Price": 600,
       "Special": "Réglage étourdissant",
       "Ability": "N/A"
@@ -85,7 +85,7 @@
       "Skill": "Dist. (lég)",
       "Dam": 5,
       "Crit": 3,
-      "Range": "Moyen",
+      "Range": "Moyenne",
       "Price": 450,
       "Special": "Précis 1, Réglage étourdissant",
       "Ability": "N/A"
