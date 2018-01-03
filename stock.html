@@ -20,6 +20,24 @@ layout : default
 </script>
 
 <script>
+    $(function() {
+
+
+        var armors = [];
+
+        $.getJSON('stock.json', function(data) {
+            $.each(data.armors, function(i, f) {
+                var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
+                    "<td>" + f.Def + "</td>" + "<td>" + f.Enc + "</td>" + "<td>" + f.Special + "</td>"+ "<td>" + f.Price +"</tr>"
+                $(tblRow).appendTo("#armor-table tbody");
+            });
+
+        });
+
+    });
+</script>
+
+<script>
     function sortTable(n) {
         var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
         table = document.getElementById("weapons-table");
@@ -75,13 +93,6 @@ layout : default
         }
     }
 </script>
-<script>
-    $(document).ready(function() {
-        $('#armor-table').dataTable( {
-            "ajax": "stock.json"
-        } );
-    } );
-</script>
 
 
 <h2>Armes</h2>
@@ -104,12 +115,9 @@ layout : default
 <table id="armor-table">
     <thead>
     <th>Nom</th>
-    <th>Compétence</th>
-    <th>Dégâts</th>
-    <th>Crit</th>
-    <th>Portée</th>
+    <th>Encaissement</th>
+    <th>Défense</th>
     <th>Spécial</th>
-    <th>Note</th>
     <th>Prix</th>
     </thead>
     <tbody>

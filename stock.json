@@ -110,5 +110,21 @@
       "Special": "Désorientation 3, Dégâts étourdissant, Souffle 8, Munition limitées 1",
       "Ability": "Exploser à l'impact ou jusqu'à 3 round après activation"
     }
+  ],
+  "armors": [
+    {
+      "Name": "Vêtements lourds",
+      "Def": 0,
+      "Enc": 1,
+      "Special": "N/A",
+      "Price": 50
+    },
+    {
+      "Name": "Armure matelassée",
+      "Def": 0,
+      "Enc": 2,
+      "Special": "N/A",
+      "Price": 500
+    }
   ]
 }
