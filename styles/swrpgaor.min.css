@@ -5,13 +5,13 @@ html {
     -webkit-font-smoothing: antialiased
 }
 
-body {
+/*body {
     font-family: ITCSymbolStd;
     font-size: 1em;
     width: 80%;
     margin: 0 auto;
     background: 0
-}
+}*/
 
 .npc-wrapper {
     text-align: center
