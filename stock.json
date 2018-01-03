@@ -307,7 +307,7 @@
     },{
       "Name": "Scanner intégré",
       "Type": "Kit Armure",
-      "Description": "Casque. +<boost></boost> Perception pour detect. ennemis",
+      "Description": "Casque. +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\"></i> Perception pour detect. ennemis",
       "Price": 1000
     },{
       "Name": "Suite optique améliorée",
