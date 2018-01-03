@@ -4,14 +4,12 @@ layout : default
 <!--Creation weapon table-->
 <script>
     $(function() {
-
-
         var weapons = [];
 
         $.getJSON('stock.json', function(data) {
             $.each(data.weapons, function(i, f) {
                 var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
-                    "<td>" + f.Skill + "</td>" + "<td>" + f.Dam + "</td>" + "<td>" + f.Crit + "</td>"+ "<td>" + f.Range + "</td>"+ "<td>" + f.Special + "</td>"+ "<td>" + f.Ability + "</td>"+"<td>" + f.Price + "</td>"+"</tr>"
+                    "<td>" + f.Skill + "</td>" + "<td>" + f.Dam + "</td>" + "<td>" + f.Crit + "</td>"+ "<td>" + f.Range + "</td>"+ "<td>" + f.Special + "</td>"+ "<td>" + f.Ability + "</td>"+"<td>" + f.Price + "</td>"+"</tr>";
                 $(tblRow).appendTo("#weapons-table tbody");
             });
 
@@ -23,14 +21,12 @@ layout : default
 <!--Creation armor table-->
 <script>
     $(function() {
-
-
         var armors = [];
 
         $.getJSON('stock.json', function(data) {
             $.each(data.armors, function(i, f) {
                 var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
-                    "<td>" + f.Enc + "</td>" + "<td>" + f.Def + "</td>" + "<td>" + f.Special + "</td>"+ "<td>" + f.Price +"</tr>"
+                    "<td>" + f.Enc + "</td>" + "<td>" + f.Def + "</td>" + "<td>" + f.Special + "</td>"+ "<td>" + f.Price +"</td>"+"</tr>";
                 $(tblRow).appendTo("#armorTable tbody");
             });
 
@@ -42,14 +38,12 @@ layout : default
 <!--Creation gear table-->
 <script>
     $(function() {
-
-
         var gears = [];
 
         $.getJSON('stock.json', function(data) {
             $.each(data.gears, function(i, f) {
                 var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
-                    "<td>" + f.Type + "</td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>"
+                    "<td>" + f.Type + "</td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>";
                 $(tblRow).appendTo("#gear-table tbody");
             });
 
