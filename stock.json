@@ -178,7 +178,7 @@
       "Name": "Equipement environnement hostile",
       "Def": 0,
       "Enc": 1,
-      "Special": "-<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"> condition clima.",
+      "Special": "-<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/> condition clima.",
       "Price": 500
     },{
       "Name": "Armure plaque laminée",
