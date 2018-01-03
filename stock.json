@@ -178,7 +178,7 @@
       "Name": "Equipement environnement hostile",
       "Def": 0,
       "Enc": 1,
-      "Special": "-<setback></setback> condition clima.",
+      "Special": "-<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"> condition clima.",
       "Price": 500
     },{
       "Name": "Armure plaque laminée",
@@ -202,7 +202,7 @@
       "Name": "Equipement environnement hostiles renforcé",
       "Def": 0,
       "Enc": 1,
-      "Special": "-<setback></setback> conditions clima., +<boost></boost> à Resistance",
+      "Special": "-<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"> conditions clima., +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\"> à Resistance",
       "Price": 850
     },{
       "Name": "Combinaison de mécanicien",
@@ -252,7 +252,7 @@
     },{
       "Name": "Médipac",
       "Type": "Médical",
-      "Description": "Permet de soigner +<boost></boost>",
+      "Description": "Permet de soigner +<i class=\"die-symbol ng-isolate-scope boost\" ng-class=\"symbol\">",
       "Price": 400
     },{
       "Name": "Outils de mécanicien",
@@ -297,7 +297,7 @@
     {
       "Name": "Camouflage naturel",
       "Type": "Kit Armure",
-      "Description": "+<setback></setback> Perception, Vigilance",
+      "Description": "+<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"> Perception, Vigilance",
       "Price": 75
     },{
       "Name": "Indicateur de menace",
@@ -312,7 +312,7 @@
     },{
       "Name": "Suite optique améliorée",
       "Type": "Kit Armure",
-      "Description": "Casque. -<setback></setback><setback></setback> pour fumée, obscurité, etc.",
+      "Description": "Casque. -<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"><i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"> pour fumée, obscurité, etc.",
       "Price": 1750
     },{
       "Name": "Pointeur laser",
