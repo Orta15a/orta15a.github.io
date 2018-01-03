@@ -101,6 +101,26 @@
       "Ability": "Explo. peut être retardée"
     },
     {
+      "Name": "Couteau de combat",
+      "Skill": "CaC",
+      "Dam": "+1",
+      "Crit": 3,
+      "Range": "Engagé",
+      "Price": 25,
+      "Special": "",
+      "Ability": ""
+    },
+    {
+      "Name": "Vibrolame",
+      "Skill": "CaC",
+      "Dam": "+1",
+      "Crit": 2,
+      "Range": "Engagé",
+      "Price": 250,
+      "Special": "Perforant 2, Sanguinaire 1",
+      "Ability": ""
+    },
+    {
       "Name": "Stun Grenade",
       "Skill": "Dist. (lég)",
       "Dam": 8,
