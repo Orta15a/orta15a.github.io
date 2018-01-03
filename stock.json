@@ -238,5 +238,43 @@
       "Price": 25
     }
 
+  ],
+  "kits": [
+    {
+      "Name": "Camouflage naturel",
+      "Type": "Kit Armure",
+      "Description": "+1 dés noir Perception, Vigilance",
+      "Price": 75
+    },{
+      "Name": "Indicateur de menace",
+      "Type": "Kit Armure",
+      "Description": "+1 Avant. pour Init.",
+      "Price": 750
+    },{
+      "Name": "Scanner intégré",
+      "Type": "Kit Armure",
+      "Description": "Casque. +1 dés bleu Perception pour detect. ennemis",
+      "Price": 1000
+    },{
+      "Name": "Suite optique améliorée",
+      "Type": "Kit Armure",
+      "Description": "Casque. -2 dés noir pour fumée, obscurité, etc.",
+      "Price": 1750
+    },{
+      "Name": "Pointeur laser",
+      "Type": "Kit Arme",
+      "Description": "+1 Avant. en combat",
+      "Price": 500
+    },{
+      "Name": "Canon raccourci",
+      "Type": "Kit Arme",
+      "Description": "Dissimuler + facil",
+      "Price": 250
+    },{
+      "Name": "Viseur nocturne",
+      "Type": "Kit Arme",
+      "Description": "Utilisation dans le noir",
+      "Price": 500
+    }
   ]
 }
