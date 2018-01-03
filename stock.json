@@ -311,7 +311,7 @@
       "Price": 1000
     },{
       "Name": "Suite optique améliorée",
-      "Type": "Kit Armure",
+      "Type": "Kit Armure<boost></boost>",
       "Description": "Casque. -<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/><i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/> pour fumée, obscurité, etc.",
       "Price": 1750
     },{
