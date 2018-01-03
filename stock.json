@@ -315,7 +315,7 @@
       "Description": "Casque. -<i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/><i class=\"die-symbol ng-isolate-scope setback\" ng-class=\"symbol\"/> pour fumée, obscurité, etc.",
       "Price": 1750
     },{
-      "Name": "Pointeur laser",
+      "Name": "Pointeur laser<boost></boost>",
       "Type": "Kit Arme",
       "Description": "+<i class=\"die-symbol ng-isolate-scope advantage\" ng-class=\"symbol\"/> en combat",
       "Price": 500
