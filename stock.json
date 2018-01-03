@@ -297,7 +297,7 @@
     {
       "Name": "Camouflage naturel",
       "Type": "Kit Armure",
-      "Description": "+<setback></setback> Perception, Vigilance",
+      "Description": "+\<setback\>\<\/setback\> Perception, Vigilance",
       "Price": 75
     },{
       "Name": "Indicateur de menace",
@@ -307,7 +307,7 @@
     },{
       "Name": "Scanner intégré",
       "Type": "Kit Armure",
-      "Description": "Casque. +<boost></boost> Perception pour detect. ennemis",
+      "Description": "Casque. +\<boost\>\</boost\> Perception pour detect. ennemis",
       "Price": 1000
     },{
       "Name": "Suite optique améliorée",
