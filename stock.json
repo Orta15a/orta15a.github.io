@@ -302,7 +302,7 @@
     },{
       "Name": "Indicateur de menace",
       "Type": "Kit Armure",
-      "Description": "+1 Avant. pour Init.",
+      "Description": "+<i class=\"die-symbol ng-isolate-scope advantage\" ng-class=\"symbol\"/> pour Init.",
       "Price": 750
     },{
       "Name": "Scanner intégré",
@@ -317,7 +317,7 @@
     },{
       "Name": "Pointeur laser",
       "Type": "Kit Arme",
-      "Description": "+1 Avant. en combat",
+      "Description": "+<i class=\"die-symbol ng-isolate-scope advantage\" ng-class=\"symbol\"/> en combat",
       "Price": 500
     },{
       "Name": "Canon raccourci",
