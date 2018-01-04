@@ -77,7 +77,7 @@ layout : default
 
         $.getJSON('stock.json', function(data) {
             $.each(data.kits, function(i, f) {
-                var tblRow = f.Description;
+                var tblRow = "<p>"+f.Description+"</p>";
                 $(tblRow).appendTo("#testp p");
             });
 
