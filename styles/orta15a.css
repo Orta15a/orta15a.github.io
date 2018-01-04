@@ -2,14 +2,14 @@
 .popup {
     position: relative;
     display: inline-block;
+    width: auto;
+    height: auto;
     cursor: pointer;
 }
 
 /* The actual popup (appears on top) */
 .popup .popuptext {
     visibility: hidden;
-    width: auto;
-    height: auto;
     background-color: #555;
     color: #fff;
     text-align: center;
