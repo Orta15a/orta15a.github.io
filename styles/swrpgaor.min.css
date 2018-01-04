@@ -399,7 +399,7 @@ body {
 .skill-name {
     text-transform: capitalize
 }
-
+/*
 h1, h2, h3, h4, h5, caption {
     text-transform: uppercase
 }
@@ -428,7 +428,7 @@ h4 {
     color: #866d21;
     text-align: right
 }
-
+*/
 div.starship-wrapper h4 {
     max-width: 540px;
     margin: 0 auto 10px
@@ -438,7 +438,7 @@ div.npc-wrapper h4 {
     max-width: 540px;
     margin: 0 auto 10px
 }
-
+/*
 h3 {
     font-size: 1.5em;
     color: #ca5719
@@ -457,7 +457,8 @@ h1 {
     -webkit-text-fill-color: white;
     word-wrap: break-word
 }
-
+*/
+/*
 body h1 {
     margin-top: 15px
 }
@@ -473,7 +474,7 @@ h2 + p:first-letter {
     margin-bottom: -15px;
     padding-right: 5px
 }
-
+*/
 .blackbox .die-symbol:after {
     -webkit-text-stroke-width: .1px;
     -webkit-text-stroke-color: white
