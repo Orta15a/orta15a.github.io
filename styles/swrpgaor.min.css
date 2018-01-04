@@ -258,8 +258,7 @@ html {
     font-size: 2vw;
     color: white;
     text-transform: uppercase;
-    font-family: TeutonMager;
-    color: black
+    font-family: TeutonMager
 }
 
 .detail-block-text {
@@ -283,7 +282,8 @@ html {
     font-family: TeutonFett;
     text-transform: uppercase;
     bottom: 10%;
-    font-size: 4.5vw
+    font-size: 4.5vw;
+    color: black
 }
 
 .detail-block-value.value-left {
