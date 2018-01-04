@@ -976,7 +976,7 @@ html.edge-of-the-empire-themed {
         -webkit-text-stroke-color: #fff100
     }
 }*/
-boost::after {
+boost {
     font-family: EotESymbol;
     font-style: normal;
     -webkit-text-stroke-width: 1px;
