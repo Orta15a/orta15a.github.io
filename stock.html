@@ -63,6 +63,7 @@ layout : default
                 var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
                     "<td>" + f.Type + "</td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>";
                 $(tblRow).appendTo("#kit-table tbody");
+                $(tblRow).appendTo("#testp inner");
             });
 
         });
@@ -196,3 +197,5 @@ layout : default
     <tr><td>column 3</td><td>no quote at all<boost></boost> no quote at all</td><td></td></tr>
     </tbody>
 </table>
+
+<p id="testp"><inner></inner></p>
