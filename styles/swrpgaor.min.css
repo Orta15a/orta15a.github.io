@@ -1,17 +1,17 @@
 html {
-    background-image: url("../img/right_page.png");
-    background-repeat: repeat-y;
+    /*background-image: url("../img/right_page.png");
+    background-repeat: repeat-y;*/
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased
 }
-
+/*
 body {
     font-family: ITCSymbolStd;
     font-size: 1em;
     width: 80%;
     margin: 0 auto;
     background: 0
-}
+}*/
 
 .npc-wrapper {
     text-align: center
