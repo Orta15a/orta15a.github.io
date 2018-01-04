@@ -329,6 +329,21 @@
       "Type": "Kit Arme",
       "Description": "Utilisation dans le noir",
       "Price": 500
+    },{
+      "Name": "Test item dice first",
+      "Type": "Kit Arme",
+      "Description": "<boost></boost>Utilisation dans le noir",
+      "Price": 500
+    },{
+      "Name": "Test item dice middle",
+      "Type": "Kit Arme",
+      "Description": "Utilisation <boost></boost> dans le noir",
+      "Price": 500
+    },{
+      "Name": "Test item dice last",
+      "Type": "Kit Arme",
+      "Description": "Utilisation dans le noir<boost></boost>",
+      "Price": 500
     }
   ]
 }
