@@ -78,7 +78,7 @@ layout : default
         $.getJSON('stock.json', function(data) {
             $.each(data.kits, function(i, f) {
                 var tblRow = "<p>"+f.Description+"</p>";
-                $(tblRow).appendTo("#testp p");
+                $(tblRow).appendTo("#testp");
             });
 
         });
@@ -213,4 +213,4 @@ layout : default
     </tbody>
 </table>
 
-<div id="testp"><p></p></div>
+<div id="testp"></div>
