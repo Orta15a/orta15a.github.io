@@ -332,7 +332,7 @@
     },{
       "Name": "Test item dice first",
       "Type": "Kit Arme",
-      "Description": "<boost><\/boost>Utilisation dans le noir",
+      "Description": "<boost></boost>Utilisation dans le noir",
       "Price": 500
     },{
       "Name": "Test item dice middle",
