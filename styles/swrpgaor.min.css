@@ -604,7 +604,7 @@ th {
     padding-right: 10px
 }
 */
-/*
+
 @media all and (min-width: 540px) {
     .stat-block-value {
         font-size: 40px
@@ -947,7 +947,7 @@ html.edge-of-the-empire-themed {
     font-family: EotESymbol;
     src: url('../fonts/EotESymbol-Regular-PLUS.otf')
 }
-/*
+
 @media print {
     body, html {
         background: 0
