@@ -64,7 +64,7 @@ layout : default
                     "<td>" + f.Type + "</td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>";
                 var testData = f.Name + f.Type + f.Description + f.Price;
                 $(tblRow).appendTo("#kit-table tbody");
-                $(testData).appendTo("#testp");
+                $(testData.toString()).appendTo("#testp");
             });
 
         });
