@@ -62,9 +62,9 @@ layout : default
             $.each(data.kits, function(i, f) {
                 var tblRow = "<tr>" + "<td>" + f.Name + "</td>" +
                     "<td>" + f.Type + "</td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>";
-                var testData = f.Name + f.Type + f.Description + f.Price;
+                var testData = "aa"+f.Name + f.Type + f.Description + f.Price+"zz";
                 $(tblRow).appendTo("#kit-table tbody");
-                $(testData.toString()).appendTo("#testp");
+                $(testData).appendTo("#testp");
             });
 
         });
