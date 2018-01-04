@@ -337,7 +337,7 @@
     },{
       "Name": "Test item dice middle",
       "Type": "Kit Arme",
-      "Description": "Utilisation <s class=\"die-symbol setback\"></s> dans le noir",
+      "Description": "Utilisation <sy class=\"die-symbol setback\"></sy> dans le noir",
       "Price": 500
     },{
       "Name": "Test item dice last",

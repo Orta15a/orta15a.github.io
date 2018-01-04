@@ -976,3 +976,12 @@ html.edge-of-the-empire-themed {
         -webkit-text-stroke-color: #fff100
     }
 }*/
+boost::after {
+    font-family: EotESymbol;
+    font-style: normal;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black
+    content: "b";
+    color: #72ccdb;
+    -webkit-text-fill-color: #72ccdb
+}
