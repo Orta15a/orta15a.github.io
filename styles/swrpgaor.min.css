@@ -439,7 +439,7 @@ div.npc-wrapper h4 {
     margin: 0 auto 10px
 }
 
-/*h3 {
+h3 {
     font-size: 1.5em;
     color: #ca5719
 }
@@ -473,7 +473,7 @@ h2 + p:first-letter {
     margin-bottom: -15px;
     padding-right: 5px
 }
-*/
+
 .blackbox .die-symbol:after {
     -webkit-text-stroke-width: .1px;
     -webkit-text-stroke-color: white
@@ -568,7 +568,7 @@ ul li {
     margin-bottom: -15px;
     padding-right: 5px
 }
-
+/*
 table {
     border-collapse: collapse
 }
