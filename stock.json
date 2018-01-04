@@ -342,7 +342,7 @@
     },{
       "Name": "Test item dice last",
       "Type": "Kit Arme",
-      "Description": "Utilisation dans le noir<yoyo class=\"die-symbol setback\"></yoyo>",
+      "Description": "Utilisation dans le noir<setback></setback>",
       "Price": 500
     }
   ]
