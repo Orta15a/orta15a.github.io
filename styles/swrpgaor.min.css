@@ -1,17 +1,17 @@
 html {
-    /*background-image: url("../img/right_page.png");*/
-    /*background-repeat: repeat-y;*/
+    background-image: url("../img/right_page.png");
+    background-repeat: repeat-y;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased
 }
 
-/*body {
+body {
     font-family: ITCSymbolStd;
     font-size: 1em;
     width: 80%;
     margin: 0 auto;
     background: 0
-}*/
+}
 
 .npc-wrapper {
     text-align: center
@@ -400,14 +400,14 @@ html {
     text-transform: capitalize
 }
 
-/*h1, h2, h3, h4, h5, caption {
+h1, h2, h3, h4, h5, caption {
     text-transform: uppercase
 }
 
 h1, h2, h3, h4, h5 {
     font-family: ElektraMediumPro;
     font-weight: bold
-}*/
+}
 
 caption {
     font-family: TeutonFett;
@@ -418,7 +418,7 @@ caption {
     margin-bottom: 2px
 }
 
-/*h5 {
+h5 {
     font-size: 1.15em;
     color: #23869e
 }
@@ -428,7 +428,7 @@ h4 {
     color: #866d21;
     text-align: right
 }
-*/
+
 div.starship-wrapper h4 {
     max-width: 540px;
     margin: 0 auto 10px
@@ -568,7 +568,7 @@ ul li {
     margin-bottom: -15px;
     padding-right: 5px
 }
-/*
+
 table {
     border-collapse: collapse
 }
@@ -650,8 +650,8 @@ th {
         margin-right: 5px
     }
 }
-*/
-/*
+
+
 html.edge-of-the-empire-themed {
     background-image: url("../img/right_page.png")
 }
@@ -857,7 +857,7 @@ html.edge-of-the-empire-themed {
     border: 1px solid #939598;
     color: white
 }
-*/
+
 
 @font-face {
     font-family: ITCSymbolStd;
