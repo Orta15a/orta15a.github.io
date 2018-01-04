@@ -64,7 +64,7 @@ layout : default
                     "<td>" + f.Type + "</td>" + "<td>" + f.Description + "</td>" + "<td>" + f.Price + "</td>"+"</tr>";
                 var testData = "aa"+f.Name + f.Type + f.Description + f.Price+"zz";
                 $(tblRow).appendTo("#kit-table tbody");
-                $(testData).appendTo("#testp");
+                $(testData).appendTo("#testp p");
             });
 
         });
@@ -199,4 +199,4 @@ layout : default
     </tbody>
 </table>
 
-<div id="testp"></div>
+<div id="testp"><p></p></div>
