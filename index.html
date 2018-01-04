@@ -1,6 +1,14 @@
 ---
 layout : default
 ---
+<script>
+    // When the user clicks on <div>, open the popup
+    function popUp() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+</script>
+
 <a name="histoire"><h2>Histoire</h2></a>
 <p>A venir, ici des r&eacute;sum&eacute;s des &eacute;pisodes pass&eacute;s...</p>
 <ul>
@@ -24,7 +32,7 @@ layout : default
     </tr>
     <tr>
         <td><strong><img src="/assets/freddy-token.png" alt="Freddy" style="height: 50%;"/></strong></td>
-        <td><strong>Freddy Blant</strong><br/>Et son fid&egrave;e KX-3</td>
+        <td><strong>Freddy Blant</strong><br/><div class="popup" onclick="popUp()">Et son fid&egrave;e KX-3<span>KX-3 lilol</span></div></td>
         <td><a href="https://dl.dropbox.com/s/e6rk3zvj1kvj4sb/Freddy.pdf">Fiche de perso</a></td>
     </tr>
     <tr>
