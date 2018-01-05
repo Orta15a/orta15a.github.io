@@ -433,14 +433,18 @@ div.starship-wrapper h4 {
     max-width: 540px;
     margin: 0 auto 10px
     font-family: ElektraMediumPro;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #866d21;
 }
 
 div.npc-wrapper h4 {
     max-width: 540px;
     margin: 0 auto 10px
     font-family: ElektraMediumPro;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #866d21;
 }
 /*
 h3 {
