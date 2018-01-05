@@ -9,8 +9,8 @@
 .popup .popuptext {
     visibility: hidden;
     background-color: #555;
-    width: 610px;
-    height: 360px;
+    width: 600px;
+    height: 330px;
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -19,7 +19,7 @@
     z-index: 1;
     bottom: 125%;
     left: 50%;
-    margin-left: -80px;
+    margin-left: -330px;
 }
 
 /* Popup arrow */
