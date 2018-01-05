@@ -1,10 +1,20 @@
 ---
 layout : default
 ---
+<!--Pop up KX-3-->
 <script>
     // When the user clicks on <div>, open the popup
-    function popUp() {
-        var popup = document.getElementById("myPopup");
+    function popUp(popID) {
+        var popup = document.getElementById(popID);
+        popup.classList.toggle("show");
+    }
+</script>
+
+<!--Pop up Voyageur obstine-->
+<script>
+    // When the user clicks on <div>, open the popup
+    function popUp_bak() {
+        var popup = document.getElementById("voyaPop");
         popup.classList.toggle("show");
     }
 </script>
@@ -32,7 +42,7 @@ layout : default
     </tr>
     <tr>
         <td><strong><img src="/assets/freddy-token.png" alt="Freddy" style="height: 50%;"/></strong></td>
-        <td><strong>Freddy Blant</strong><br/><div class="popup" onclick="popUp()" style="text-decoration: underline;">Et son fid&egrave;le KX-3<div class="popuptext" id="myPopup">
+        <td><strong>Freddy Blant</strong><br/><div class="popup" onclick="popUp(myPopup)" style="text-decoration: underline;">Et son fid&egrave;le KX-3<div class="popuptext" id="myPopup">
             <npc name="KX-3" rank="nemesis" brawn="3" agility="3" intellect="2" willpower="1" cunning="2" presence="1" soak="4" wounds="17" strain="11" melee-defense="0" ranged-defense="1">
 
                 <skills athletics="1" cool="1" brawl="1" ranged-heavy="2" gunnery="1" mechanics="2" stealth="2"></skills>
@@ -66,7 +76,13 @@ layout : default
     </tr>
     <tr>
         <td><strong><img src="/assets/voya-token.png" alt="YT-1000" style="height: 20%;"/></strong></td>
-        <td><strong>Voyageur Obstin&eacute;</strong></td>
+        <td><strong>Voyageur Obstin&eacute;</strong><br/><div class="popup" onclick="popUp(voyaPop)" style="text-decoration: underline;">Stats du vaisseau<div class="popuptext" id="voyaPop">
+
+            <vehicle name="Voyageur obstiné" speed="3" silhouette="4" fore="1" aft="1" armor="2" handling="-2" sensor-range="Courte" hull="20" system="14" type="Cargo léger" ship="YT-1000" maker="Corellian Engineering Corporation" hyperdrive="Principal: Classe 3, Secours: 16" navicomputer="true" encum="150" consumables="2 mois" price="75,000" rarity="5" hardpoints="5" passengers="6" crew="Un pilote, un co-pilote">
+                <starship-weapon damage="5" critical="3" name="Canon Laser légers jumelés sur tourelle" fire-arc="tous" linked="1" range="Proche"></starship-weapon>
+            </vehicle>
+
+        </div></div></td>
         <td><a href="https://dl.dropbox.com/s/hvnst4jptur0udr/Voyageur%20obstin%C3%A9.pdf">Fiche de v&eacute;hicule</a><strong>&nbsp;
             &nbsp; &nbsp;</strong></td>
     </tr>
