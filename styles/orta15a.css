@@ -6,7 +6,7 @@
 }
 
 /* The actual popup (appears on top) */
-.popup .popuptext h4{
+.popup .popuptext {
     visibility: hidden;
     background-color: #555;
     width: 600px;
