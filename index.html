@@ -10,6 +10,15 @@ layout : default
     }
 </script>
 
+<!--Pop up KX-3-->
+<script>
+    // When the user clicks on <div>, open the popup
+    function popUpJon() {
+        var popup = document.getElementById("joPop");
+        popup.classList.toggle("show");
+    }
+</script>
+
 <!--Pop up Voyageur obstine-->
 <script>
     // When the user clicks on <div>, open the popup
@@ -89,6 +98,26 @@ layout : default
     </tbody>
 </table>
 
+<a name="PNJS"><h2>PNJs</h2></a>
+
+<h3>Lieutenant Kestrel Novatra</h3>
+<p>Blabla bla bla bla la vide Johnson</p>
+<h3>Sergent Bennett</h3>
+<p>Blabla bla bla bla la vide Johnson</p>
+
+<h3>Enseigne Piotr Johnson</h3>
+<p>Blabla bla bla bla la vide Johnson
+<br/><div class="popup" onclick="popUpJon()" style="text-decoration: underline;">Stats de Johnson<div class="popuptext" id="joPop">
+    <npc name="Cadet Johnson" rank="rival" brawn="2" agility="2" intellect="2" cunning="2" willpower="2" presence="2" soak="3" wounds="12">
+        <skills ranged-heavy="1" gunnery="1" vigilance="1" melee="1" ></skills>
+        <weapon name="Caabine Blaster EE-3 " skill="Distance (lourd)" damage="9" critical="3" range="Moyenne"></weapon>
+        <weapon name="Couteau" skill="Corps à corps" damage="3" critical="3" range="Au Contact"></weapon>
+    </npc>
+</div>
+</div></p>
+
+
+
 <a name="groupe"><h2>Groupe</h2></a>
 <h3>Obligation</h3>
 <p></p>
@@ -149,7 +178,7 @@ layout : default
     <div style="text-align: right; padding-right: 20px; line-height: 40px; color: #000000; width: 50%; background-color: #f9eb30;">56</div>
 </div>
 
-<a name="ressources"><h2>Ressources</h2></a>
+<a name="Aides de jeu"><h2>Aides de jeu</h2></a>
 <h3><strong>Arbres de talents</strong></h3>
 <h4><span style="text-decoration: underline;">Aux Confins de l'Empire</span></h4>
 <div style="overflow-x:auto;">
