@@ -70,23 +70,6 @@ layout : default
     });
 </script>
 
-<!--Test script-->
-<script>
-    $(function() {
-        var kits = [];
-
-        $.getJSON('stock.json', function(data) {
-            $.each(data.kits, function(i, f) {
-                var tblRow = f.Description;
-                $(tblRow).appendTo("#testp");
-            });
-
-        });
-
-    });
-</script>
-
-
 <!--Sorting script-->
 <script>
     function sortTable(n,tablename) {
@@ -205,5 +188,3 @@ layout : default
     </tbody>
 </table>
 </div>
-
-<p id="testp"></p>
