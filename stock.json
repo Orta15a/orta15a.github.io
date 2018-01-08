@@ -1,7 +1,7 @@
 {
   "weapons": [
     {
-      "Name": "A280 Blaster Rifle",
+      "Name": "A280 Fusil Blaster",
       "Skill": "Dist. (lou)",
       "Dam": 9,
       "Crit": 3,
@@ -11,7 +11,7 @@
       "Ability": "N/A"
     },
     {
-      "Name": "DLT-19",
+      "Name": "DLT-19 Fusil Blaster lourd",
       "Skill": "Dist. (lou)",
       "Dam": 10,
       "Crit": 3,
@@ -21,7 +21,7 @@
       "Ability": "N/A"
     },
     {
-      "Name": "E-11 Blaster Rifle",
+      "Name": "E-11 Fusil Blaster",
       "Skill": "Dist. (lou)",
       "Dam": 9,
       "Crit": 3,
@@ -31,7 +31,7 @@
       "Ability": "N/A"
     },
     {
-      "Name": "Slugthrower Rifle",
+      "Name": "Fusil de chasse",
       "Skill": "Dist. (lou)",
       "Dam": 7,
       "Crit": 5,
@@ -41,7 +41,7 @@
       "Ability": "N/A"
     },
     {
-      "Name": "EE-3 Carbine Rifle",
+      "Name": "EE-3 Carabine Blaster",
       "Skill": "Dist. (lou)",
       "Dam": 9,
       "Crit": 3,
@@ -51,7 +51,7 @@
       "Ability": "N/A"
     },
     {
-      "Name": "DL-44 Blaster Pistol",
+      "Name": "DL-44 Pistolet Blaster",
       "Skill": "Dist. (lég)",
       "Dam": 6,
       "Crit": 3,
@@ -61,7 +61,7 @@
       "Ability": "N/A"
     },
     {
-      "Name": "BlasTech DL-19C Blaster Pistol",
+      "Name": "DL-19C Pistolet Blaster",
       "Skill": "Dist. (lég)",
       "Dam": 5,
       "Crit": 4,
@@ -71,7 +71,7 @@
       "Ability": "Talent Customisation peut * 2"
     },
     {
-      "Name": "CR-2 Heavy Blaster Pistol",
+      "Name": "CR-2 Pistolet Blaster lourd",
       "Skill": "Dist. (lég)",
       "Dam": 7,
       "Crit": 4,
@@ -81,7 +81,7 @@
       "Ability": "N/A"
     },
     {
-      "Name": "HL-27 Light Blaster Pistol",
+      "Name": "HL-27 Pistolet Blaster léger",
       "Skill": "Dist. (lég)",
       "Dam": 5,
       "Crit": 3,
@@ -91,7 +91,7 @@
       "Ability": "N/A"
     },
     {
-      "Name": "Frag Grenade",
+      "Name": "Grenade Fragmentation ",
       "Skill": "Dist. (lég)",
       "Dam": 8,
       "Crit": 4,
@@ -121,7 +121,7 @@
       "Ability": ""
     },
     {
-      "Name": "Stun Grenade",
+      "Name": "Grenade Stun",
       "Skill": "Dist. (lég)",
       "Dam": 8,
       "Crit": "N/A",
