@@ -6,13 +6,14 @@
 }
 /* collapsible */
 .collapsible {
+    color: #444;
     cursor: pointer;
     padding: 8px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 10px;
+    font-size: 12px;
   }
   .active, .collapsible:hover {
     background-color: #555;
