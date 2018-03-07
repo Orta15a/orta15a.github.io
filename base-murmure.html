@@ -6,14 +6,9 @@ layout : default
 <p>Située sur dans la jungle profonde de la planète Onderon, la base Murmure est un poste de surveillance impérial, doté d'une antenne parabolique capable de capter une multitudes de signaux : depuis les fréquences radio locals jusqu'aux communications Holonet du secteur galactique.</p>
 <p>Cette antenne, située à 3 kilomètres de la base elle même, est connectée via un cable souterrain au centre d'analyse et de décryptage de la base Murmure. En effet, de nombreux ordinateurs, serveurs d'analyse et rack de mémoires sont nécessaire pour traiter, trier et décrypter la masse d'information que l'antenne est capable de capter.</p>
 <p>La base Murmure contient les installations suivantes :
-    <button class="collapsible">
-        Hangar
-    </button>
-    <div class="content">
-            <p>Le hangar est blablabla...</p>
-    </div>    
-    <li>Modules d'habitation</li>
-    <li>Poste de sécurité</li>
+    <li><a href="#hangar">Hangar</a></li> 
+    <li><a href="#habitation">Modules d'habitation</a></li>
+    <li><a href="secu">Poste de sécurité</a></li>
     <li>Baie d'atterrissage</li>
     <li>Centre d'analyse</li>
     <li>Armurerie</li>
@@ -22,19 +17,10 @@ layout : default
     <li>Cuisines, salle de détente, salle d'entraînement, etc</li>
 </p>
 
-<script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-</script>
+<p id="hangar">Le hangar de la base murmure contient.. blablabla</p>
+<p id="habitation">Le hangar de la base murmure contient.. blablabla</p>
+<p id="secu">Le hangar de la base murmure contient.. blablabla</p>
+<p id="atterrissag">Le hangar de la base murmure contient.. blablabla</p>
+<p id="analyse">Le hangar de la base murmure contient.. blablabla</p>
+<p id="armurerie">Le hangar de la base murmure contient.. blablabla</p>
+
